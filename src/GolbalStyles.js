@@ -13,16 +13,14 @@ const GlobalStyles = createGlobalStyle`
     }
     a{
         color: #000;
-        text-decoration: none !important;
+        text-decoration: none;
     }
     button{
         border:none;
         cursor:pointer;
         background-color: inherit;
     }
-    label, input, button, select, img {
-        vertical-align: middle;
-    }
+   
 `;
 
 export const GlobalContainer = styled.div`
