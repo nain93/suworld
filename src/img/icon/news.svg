@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 66 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-120.685,-69.1229)">
+        <g id="Artboard1" transform="matrix(1.41117,0,0,1.41117,-129.561,-77.7551)">
+            <rect x="177.332" y="104.082" width="46.34" height="46.34" style="fill:none;"/>
+            <g transform="matrix(0.768403,0,0,0.768403,179.84,103.955)">
+                <path d="M56.43,4.389C56.43,2.396 54.811,0.778 52.818,0.778L0.96,0.778C-1.034,0.778 -2.652,2.396 -2.652,4.389L-2.652,56.248C-2.652,58.241 -1.034,59.859 0.96,59.859L52.818,59.859C54.811,59.859 56.43,58.241 56.43,56.248L56.43,4.389Z" style="fill:rgb(55,152,48);"/>
+            </g>
+            <g transform="matrix(0.3787,0,0,0.3787,53.8315,114.964)">
+                <text x="335.612px" y="43.611px" style="font-family:'Arial-Black', 'Arial', sans-serif;font-weight:900;font-size:31.193px;fill:white;">NEWS</text>
+            </g>
+        </g>
+    </g>
+</svg>
