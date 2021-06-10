@@ -7,3 +7,4 @@ react-bootstrap bootstrap@4.6.0
 styled-reset
 node-sass
 react-icons --save
+swiper

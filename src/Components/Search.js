@@ -5,26 +5,56 @@ import { GlobalContainer } from "../GolbalStyles";
 import { FaSearch } from "react-icons/fa";
 
 const Container = styled.div`
-  margin: 35px 0;
+  margin: 1.5% 0;
   padding: 1.5rem 0px;
 `;
 
 const HeaderItemBox = styled(GlobalContainer)`
   display: flex;
+  justify-content: center;
   align-items: center;
+  a {
+    @media screen and (min-width: 0px) {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+    }
+    @media screen and (min-width: 768px) {
+      position: static;
+    }
+    img {
+      @media screen and (min-width: 0px) {
+        width: 80px;
+      }
+      @media screen and (min-width: 768px) {
+        width: 200px;
+      }
+    }
+  }
 `;
 
-const LogoImg = styled.img`
-  width: 200px;
-`;
+const LogoImg = styled.img``;
 
 const SeacrhForm = styled.form`
   border: 2px solid #613abc;
 
-  margin: 0px 2%;
+  @media screen and (min-width: 0px) {
+    position: absolute;
+    left: 20%;
+    height: 4vh;
+    width: 45%;
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    position: static;
+  }
+  margin: 0% 2%;
   border-width: 2px;
   border-style: solid;
-  width: 450px;
+  width: 50%;
   height: 5vh;
   display: flex;
   align-items: center;
@@ -40,7 +70,7 @@ const SeacrhForm = styled.form`
   }
 `;
 
-function Header() {
+function Search() {
   return (
     <Container>
       <HeaderItemBox>
@@ -62,4 +92,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Search;
