@@ -7,7 +7,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 const Container = styled.nav`
   z-index: 20;
   box-shadow: 0px 5px 5px -2px rgb(50 60 70 / 15%);
-  border-top: 1px solid #613abc;
+
   height: 60px;
   width: 100%;
   @media screen and (min-width: 0px) {
@@ -18,6 +18,7 @@ const Container = styled.nav`
   }
   @media screen and (min-width: 768px) {
     position: static;
+    border-top: 1px solid #613abc;
   }
 `;
 

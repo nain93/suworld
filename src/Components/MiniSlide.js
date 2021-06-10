@@ -5,7 +5,9 @@ import { dummy } from "../dummy";
 const Container = styled.div`
   width: 100%;
   height: 50px;
-  background-color: #1f0a51;
+  margin: 1% 0px;
+  background-color: white;
+  box-shadow: 0px 5px 5px -2px rgb(50 60 70 / 15%);
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -24,17 +26,17 @@ const Container = styled.div`
 
 const autoLoop = keyframes`
   0% { left: 0%; }
-  100% { left: -100%; }
+  100% { left: -200%; }
 `;
 
 const LoopItemBox = styled.div`
   position: absolute;
-  width: 200%;
+  width: 400%;
   left: 0;
   overflow: hidden;
   height: 100%;
-  color: #20f618;
-  animation: ${autoLoop} 20s linear infinite;
+  color: black;
+  animation: ${autoLoop} 40s linear infinite;
   > div {
     display: flex;
     align-items: center;
@@ -42,14 +44,14 @@ const LoopItemBox = styled.div`
     width: 50%;
     float: left;
     white-space: nowrap;
-    overflow: hidden;
     span {
-      padding: 0 3%;
+      width: 100%;
+      padding: 0 1%;
     }
   }
 `;
 
-function LoopSlide() {
+function MiniSlide() {
   return (
     <Container>
       <LoopItemBox>
@@ -72,4 +74,4 @@ function LoopSlide() {
   );
 }
 
-export default LoopSlide;
+export default MiniSlide;
