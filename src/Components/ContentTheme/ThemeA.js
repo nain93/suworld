@@ -7,12 +7,24 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media screen and (min-width: 0px) {
+    p {
+      font-size: 0.5rem;
+    }
+    font-size: 0.7rem;
+  }
+  @media screen and (min-width: 768px) {
+    p {
+      font-size: 0.8rem;
+    }
+    font-size: 1rem;
+  }
 
   > div:first-child {
     width: 90%;
     height: 50%;
     background-color: gray;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   > div:last-child {
     margin-top: 1%;
@@ -30,7 +42,6 @@ const Container = styled.div`
       margin: 0 auto;
       line-height: 20px;
       word-wrap: break-word;
-      font-size: 0.8rem;
     }
   }
 `;
@@ -40,8 +51,15 @@ const GridBox = styled.div`
   width: 100%;
   display: grid;
   grid-gap: 1%;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
+
+  > div div:last-child {
+    height: 40%;
+  }
+  > div div:first-child {
+    height: 55%;
+  }
 `;
 
 const ImgBox = styled.div`

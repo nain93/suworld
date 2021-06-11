@@ -7,7 +7,7 @@ const Container = styled.div`
     width: 90%;
     height: 50%;
     background-color: gray;
-    border-radius: 15px;
+    border-radius: 10px;
   }
   > div:last-child {
     margin-top: 1%;

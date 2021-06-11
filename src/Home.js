@@ -16,12 +16,23 @@ const MainContainer = styled.div`
   width: 75%;
   display: flex;
   flex-direction: column;
+  @media screen and (min-width: 0px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 768px) {
+    width: 75%;
+  }
 `;
 
 const SideContainer = styled.div`
   width: 25%;
   border: 1px solid black;
-  margin-left: 3%;
+  @media screen and (min-width: 0px) {
+    display: none;
+  }
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 `;
 
 function Home() {
